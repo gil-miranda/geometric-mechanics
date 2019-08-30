@@ -1,0 +1,77 @@
+% !TEX root = my-thesis.tex
+
+
+% **************************************************
+% Files' Character Encoding
+% **************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+\usepackage{inputenc}
+
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{Metódos Matemáticos em Mecânica Geométrica}
+\newcommand{\thesisName}{Gil Sales Miranda Neto}
+\newcommand{\thesisSubject}{Documentation}
+\newcommand{\thesisDate}{01 de Setembro de 2019}
+\newcommand{\thesisVersion}{My First Draft}
+
+\newcommand{\thesisFirstReviewer}{Alejandro Cabrera}
+\newcommand{\thesisFirstReviewerUniversity}{\protect{Universidade Federal do Rio de Janeiro}}
+\newcommand{\thesisFirstReviewerDepartment}{Instituto de Matemática \\Departamento de Matemática Aplicada}
+
+\newcommand{\thesisSecondReviewer}{John Doe}
+\newcommand{\thesisSecondReviewerUniversity}{\protect{Clean Thesis Style University}}
+\newcommand{\thesisSecondReviewerDepartment}{Department of Clean Thesis Style}
+
+\newcommand{\thesisFirstSupervisor}{Jane Doe}
+\newcommand{\thesisSecondSupervisor}{John Smith}
+
+\newcommand{\thesisUniversity}{\protect{Universidade Federal do Rio de Janeiro}}
+\newcommand{\thesisUniversityDepartment}{Departamento de Matemática Aplicada}
+\newcommand{\thesisUniversityInstitute}{Instituto de Matemática}
+\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityCity}{City}
+\newcommand{\thesisUniversityStreetAddress}{Street address}
+\newcommand{\thesisUniversityPostalCode}{Postal Code}
+
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\PassOptionsToPackage{% setup clean thesis style
+    figuresep=colon,%
+    hangfigurecaption=false,%
+    hangsection=true,%
+    hangsubsection=true,%
+    sansserif=false,%
+    configurelistings=true,%
+    colorize=full,%
+    colortheme=bluemagenta,%
+    configurebiblatex=true,%
+    bibsys=biber,%
+    bibfile=bib-refs,%
+    bibstyle=alphabetic,%
+    bibsorting=nty,%
+}{cleanthesis}
+\usepackage{cleanthesis}
+
+\hypersetup{% setup the hyperref-package options
+    pdftitle={\thesisTitle},    %   - title (PDF meta)
+    pdfsubject={\thesisSubject},%   - subject (PDF meta)
+    pdfauthor={\thesisName},    %   - author (PDF meta)
+    plainpages=false,           %   -
+    colorlinks=false,           %   - colorize links?
+    pdfborder={0 0 0},          %   -
+    breaklinks=true,            %   - allow line break inside links
+    bookmarksnumbered=true,     %
+    bookmarksopen=true          %
+}
