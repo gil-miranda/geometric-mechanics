@@ -1995,15 +1995,6 @@
     <bcf:datasource type="file" datatype="bibtex">bib-refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Jurgens:2000</bcf:citekey>
-    <bcf:citekey order="1">Jurgens:1995</bcf:citekey>
-    <bcf:citekey order="1">Miede:2011</bcf:citekey>
-    <bcf:citekey order="1">Kohm:2011</bcf:citekey>
-    <bcf:citekey order="1">Apple:keynote:2010</bcf:citekey>
-    <bcf:citekey order="1">Apple:numbers:2010</bcf:citekey>
-    <bcf:citekey order="1">Apple:pages:2010</bcf:citekey>
-    <bcf:citekey order="2">WEB:GNU:GPL:2010</bcf:citekey>
-    <bcf:citekey order="2">WEB:Miede:2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
@@ -2035,22 +2026,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="nty/global//global/global"
-                type="entry"
-                sortingtemplatename="nty"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
-                name="nty/global/518ED29525738CEBDAC49C49E60EA9D3/global/global"
-                type="entry"
-                sortingtemplatename="nty"
-                sortingnamekeytemplatename="global"
-                labelprefix="@"
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>
