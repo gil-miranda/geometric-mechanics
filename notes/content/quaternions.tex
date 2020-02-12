@@ -1,0 +1,20 @@
+% !TEX root = ../my-thesis.tex
+%
+\chapter{Quaternions e Representações de Rotações}
+\label{sec:quaternions}
+\section{Os Quaternions}
+Quaternions são elementos do espaço vetorial \(H\) sobre o corpo dos reais, onde \(H\) tem dimensão \(4\). Uma das importantes propriedades dos quaternions é que a multiplicação neste espaço é associativa e distributiva sobre a adição, mas é não comutativa, então \(H\) é uma álgebra associativa não-comutativa sobre os reais.
+Com os quaternions podemos obter uma representação de matrizes rotações \(R \in SO(3)\).
+Denotamos por \(\{\textbf{1},\textbf{i},\textbf{j},\textbf{k}\}\) a base canônica de \(H\): \(\textbf{1} = (1,0,0,0), \textbf{i} = (0,1,0,0), \textbf{j} = (0,0,1,0), \textbf{k} = (0,0,0,1)\).\\
+Um ponto \(\textbf{p} = (w,x,y,z) \in H\) pode ser escrito como \(\textbf{p} = w + x\textbf{i} + t\textbf{j} + z\textbf{k}\).\\
+O produto dos elementos da base canônica é definido como na tabela
+
+
+\begin{tabular}{1l1l1l1l1l}
+\(\times\)     & \textbf{1} & \textbf{i}   &  \textbf{j} & \textbf{k}            \\ \hline
+\textbf{1} & \textbf{1}  & \textbf{i} &\textbf{j}   &\textbf{k}             \\ \hline
+\textbf{i} & \textbf{i} & \textbf{-1}	 &  \textbf{k} &\textbf{-j}             \\ \hline
+\textbf{j} &\textbf{j}  &  \textbf{-k}& \textbf{-1}& \textbf{i}  \\ \hline
+\textbf{k} &\textbf{k} &  \textbf{j}& \textbf{-i} & \textbf{-1} \\ 
+\end{tabular}
+

@@ -1,14 +1,18 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Definindo os met\IeC {\'o}dos para o algoritmo}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Definindo os metódos para o algoritmo}{1}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Dados de Input}{1}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Dados de Output}{1}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Sistema de Equa\IeC {\c c}\IeC {\~o}es Diferenciais}{1}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Sistema de Equações Diferenciais}{1}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}O algoritmo}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Quaternions e Representações de Rotações}{3}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Depend\IeC {\^e}ncia de pacotes}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Os Quaternions}{3}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}O algoritmo}{5}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Dependência de pacotes}{5}{section.3.1}% 
