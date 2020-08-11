@@ -1,3 +1,13 @@
+"""
+Geometric Mechanics Module
+__author__ = "Gil Miranda"
+__credits__ = ["Alejandro Cabrera, Iago Leal"]
+__license__ = "MIT"
+__version__ = "1.0.1"
+__email__ = "gil@matematica.ufrj.br"
+__status__ = "Development"
+"""
+
 import numpy as np
 import pyquaternion as pyQ
 import scipy.integrate
@@ -111,7 +121,7 @@ class Graphics:
         return sc
 
     @staticmethod
-    def create_plot(positions, body_lines, time, name = 'cubeQ'):
+    def create_plot(positions, body_lines, time, name = 'cubeQ', save = True):
         #Create figure object and set animation
         fig = plt.figure()
         ax = fig.gca(projection='3d')
@@ -130,4 +140,5 @@ class Graphics:
         ani = FuncAnimation(fig, Graphics.update_plot,  frames=len(time), interval=2,
                 fargs=(positions, body_lines, ani_lines, sc), repeat=True)
         plt.show()
-        ani.save('./'+ name + '.gif', writer='imagemagick')
+        if save == True:
+            ani.save('./'+ name + '.gif', writer='imagemagick')
